@@ -1,8 +1,4 @@
-nums = [1,1,2,3,2,4,5]
+arr = ([1,2],[3,4])
+for i,j in arr:
+    print(i,j)
 
-for i in range(1,len(nums)):
-    nums[i]  += nums[i-1]
-
-print(nums)
-
-print(nums[6]-nums[3])  # sum of suubarray from idx 3+1 to 6
